@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Primeiros Passos com HTML</h1>
+    <hr>
+
+    <h2>Índice</h2>
+    <ul>
+        <li>
+            <a href="#">Entendendo Comunicação Client x Server</a>
+            <ul>
+                <li><a href="#historia">História da Web</a></li>
+                <li><a href="#clients">O que são <i>Clients</i></a></li>
+                <li><a href="#servers">O que são <i>Servers</i></a></li>
+                <li><a href="#linguagens">Linguagens de Programação</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Introdução ao HTML na Prática</a>
+            <ul>
+                <li><a href="#estrutura-basica">Estrutura Básica do HTML</a></li>
+                <li><a href="#tags">Tags</a></li>
+                <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+                <li><a href="#links">Links</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2 id="historia">História da Web</h2>
+    <h3>Primeiros Computadores</h3>
+    <p><strong>Primeira Geração - </strong>Harvard Mark I (1944), Colossus (1946) e ENIAC (1946).</p>
+    <p><strong>Segunda Geração - </strong>Transitores (1959 a 1965).</p>
+    <p><strong>Terceira Geração - </strong>Circuito integrado (1965 a 1970).</p>
+    <p><strong>Quarta Geração - </strong>Microprocessador (a partir 1971).</p>
+
+    <h3>Internet - Como surgiu?</h3>
+    <p><strong>1958 - </strong>Telégrafo</p>
+    <p><strong>Década 1950 - </strong>Darpa (Guerra Fria)</p>
+    <p><strong>1969 - </strong>Primeira conexão estabelecida entre a UCLA e o SRI (Arpanet) e criação do protocolo TCP/IP</p>
+    <p><strong>1989 - </strong>Criação da World Wide Web (WWW), com a união de hipertexto com TCP/IP, por Tim Berners-Lee</p>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h2 id="clients">O que são <i>Clients</i></h2>
+    <h3>Conceito de <i>client</i></h3>
+    <p>Dispositivo que exige determinados serviços de um servidor.</p>
+    <h3>Falando sobre navegadores</h3>
+    <p>São programas criados por empresas, utilizados para abrir/executar arquivos.</p>
+    <p>Seguem padrões W3C.</p>
+    <p>Também chamados de "browsers".</p>
+    <p>Iniciou com o MOSAIC, passou para o Netscape, e hoje, temos uma variedade de navegadores disponíveis e gratuitos.</p>
+    <h3>Aplicações Web</h3>
+    <p><strong>Resumindo: </strong>são soluções criadas que possuem a internet como meio de comunicação entre Client x Server, não sendo necessária sua instalação.</p>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h2 id="servers">O que são <i>Servers</i></h2>
+    <h3>Conceito de <i>server</i></h3>
+    <p>Equipamento que presta serviços aos computadores conectados a ele através de uma rede.</p>
+    <h3>Tipos de servidores</h3>
+    <ul>
+        <li>Arquivos</li>
+        <li>Segurança (Firewall)</li>
+        <li>Straming</li>
+        <li>E-mail</li>
+        <li>Web</li>
+    </ul>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h2 id="linguagens">Linguagens de Programação</h2>
+    <h3>Linguagem de programação: o que é?</h3>
+    <p>Linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas(softwares).</p>
+    <h3>Linguagem Server-Side</h3>
+    <p>Linguagens que são executadas no servidor.</p>
+    <p>Exemplos: JavaScript, Java, PHP, C# e Ruby.</p>
+    <h3>Linguagem Client-Side</h3>
+    <p>Linguagens que são executadas no client.</p>
+    <p>Exemplo: JavaScript.</p>
+    <h3>HTML é uma linguagem de programação?</h3>
+    <p><strong>NÃO!</strong></p>
+    <p>HTML é uma linguagem de <strong>MARCAÇÃO</strong>!</p>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h2 id="estrutura-basica">Estrutura Básica do HTML</h2>
+    <h3>Tags estruturais obrigatórias:</h3>
+    <ul>
+        <li>&lt; html &gt;</li>
+        <li>&lt; head &gt;</li>
+        <li>&lt; body &gt;</li>
+        <li>Instrução DOCTYPE</li>
+    </ul>
+    <a href="https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html?gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITXhvdYaw992mCl1X2DaOVxtaRXWL7eLJbruenCWXxUI5Z2Vd9BGeEIaArFzEALw_wcB" target="_blank">Mais informções</a>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h2 id="tags">Tags</h2>
+    <h3>O que são tags HTML?</h3>
+    <p>As tags são formadas por uma estrutura própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior que”. Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas (self-closing). O fechamento de uma tag será definido com uma barra (/), sendo que no caso das tags de auto fechamento, não há necessidade da presença desse caractere.</p>
+    <h3>Tipos de tag</h3>
+    As tags podem ser categorizadas inicialmente em dois tipos, em “nível de bloco” (block-level) e “em linha” (inline). Um elemento em nível de bloco ocupa toda a largura de seu elemento pai, que também chamamos de elemento container, criando assim um “bloco”. Já os elementos inline, geralmente usamos para demarcação de conteúdos de texto.
+    <h3>Exemplos de Tags</h3>
+    <ul>
+        <li>&lt; !DOCTYPE html &gt;</li>
+        <li>&lt; html &gt;</li>
+        <li>&lt; body &gt;</li>
+        <li>&lt; script &gt;</li>
+        <li>&lt; head &gt;</li>
+        <li>&lt; meta &gt;</li>
+        <li>&lt; link &gt;</li>
+        <li>&lt; style &gt;</li>
+    </ul>
+    <h3>Tags semânticas</h3>
+    <p>Tags semânticas são tags que possuem um significado, que dão sentido a informação de texto ao navegador e buscadores. É uma boa prática tentar sempre utilizar essas tags semânticas para ajudar no entendimento do código, além de ajudar muito no SEO do site</p>
+    <a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica?gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITWq9ViDi9GTNvRCKABqSIkUSvba-0vO0i5tWEeN_Jq8ikm-hvOLr_0aAglLEALw_wcB" target="_blank">Mais informações</a>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+    <p>A lista mais comum é a <strong>lista não-ordenada</strong> definida pela tag &lt; ul &gt; <i>(unordered list)</i>. Para cada item da lista não-ordenada, utilizamos uma marcação de item de lista &lt; li &gt; <i>(list item)</i>.  A mesma tag de item de lista &lt; li &gt; é utilizada quando demarcamos uma lista ordenada.</p>
+    <p>As listas ordenadas (&lt; ol &gt; - <i>ordered list</i>) também podem ter sua estrutura composta por outras listas ordenadas. Também é possível ter listas ordenadas aninhadas em um item de uma lista não-ordenada e vice-versa.</p>
+    <a href="https://www.alura.com.br/apostila-html-css-javascript/06CA-usando-links-e-listas?gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITUR7mCmVfmbUeZf_x2e8C1pJSJdP9g9T5uecVhoTymbp7qmoKsINBEaAgkWEALw_wcB" target="_blank">Mais informações</a>
+    <small><a href="#inicio">Voltar</a></small>
+
+    <h2 id="links">Links</h2>
+    <p>Quando precisamos indicar que um trecho de texto se refere a um outro conteúdo, seja ele no mesmo documento ou em outro endereço (por exemplo uma página na web), utilizamos a tag de âncora &lt; a &gt;.</p>
+    <p>Existem três diferentes usos para as âncoras: definição de links, <strong><i>bookmark</i></strong> e demarcação de destinos para links dentro do próprio site.</p>
+    <a href="https://www.alura.com.br/apostila-html-css-javascript/06CA-usando-links-e-listas?gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITUR7mCmVfmbUeZf_x2e8C1pJSJdP9g9T5uecVhoTymbp7qmoKsINBEaAgkWEALw_wcB" target="_blank">Mais informações</a>
+    <small><a href="#inicio">Voltar</a></small>
+</body>
+</html>
